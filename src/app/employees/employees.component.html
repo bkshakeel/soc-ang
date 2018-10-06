@@ -1,0 +1,14 @@
+<h1>Employees</h1>
+
+<ul>
+  <li *ngFor="let user of users$">
+    <a>{{ user.firstName }} </a> 
+      <ul>
+      <li>{{ user.lastName }}</li>
+      <li>{{ user.gender }}</li>
+      <li>{{ user.dob }}</li>
+      <li>{{ user.department }}</li>
+    </ul>
+  </li>
+</ul>
+
